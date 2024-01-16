@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@deno/mod.js';
+import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@v0.1.0-deno/mod.js';
 ```
 
 #### any( x )
@@ -93,7 +93,7 @@ var bool = any( x );
 
 ```javascript
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@deno/mod.js';
-import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@deno/mod.js';
+import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@v0.1.0-deno/mod.js';
 
 var x = bernoulli( 10, 0.1, {
     'dtype': 'int8'
