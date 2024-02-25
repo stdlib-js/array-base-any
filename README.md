@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@esm/index.mjs';
+import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@v0.2.1-esm/index.mjs';
 ```
 
 #### any( x )
@@ -98,7 +98,7 @@ var bool = any( x );
 <script type="module">
 
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-bernoulli@esm/index.mjs';
-import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@esm/index.mjs';
+import any from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-any@v0.2.1-esm/index.mjs';
 
 var x = bernoulli( 10, 0.1, {
     'dtype': 'int8'
